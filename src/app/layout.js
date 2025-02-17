@@ -19,7 +19,9 @@ export default function RootLayout({ children }) {
         className={`${inter.variable} antialiased`}
       >
         <Navbar />
-        {children}
+        <div className="container my-4 lg:my-8">
+          {children}
+        </div>
       </body>
     </html>
   );
