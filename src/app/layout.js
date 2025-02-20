@@ -17,6 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={`${inter.variable} antialiased`}
+        suppressHydrationWarning
       >
         <Navbar />
         <div className="container my-4 lg:my-8">
